@@ -240,7 +240,7 @@ body.border-dark .main-content:after{
 =======================================================*/
 .section-main{
 	background-size:cover;
-	background-image:url('file:///Users/eliasmanai/Documents/portfolio/img/myPicture.jpg');
+	background-image:url('https://elyesmanae.github.io/myPortfolio/img/myPicture.jpg');
 	background-repeat: no-repeat;
   	background-attachment: fixed; 
   	background-position: center;
