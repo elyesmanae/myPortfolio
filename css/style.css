@@ -260,22 +260,20 @@ body.border-dark .main-content:after{
 	text-align:center;
 }
 .intro-text > h1{
-	top: 200;
 	margin:0;
 	color:#FFF;
 	text-transform:uppercase;
-	font-weight:900;
+	font-weight:750;
 	letter-spacing:8px;
 	font-size:78px;
 }
 .intro-text > p{
-	font-size:18px;
+	font-size:25px;
 	color:#FFF;
 	color:rgba(255,255,255,.8);
 	margin-top:15px;
 	margin-bottom:0;
-	font-weight:300;
-	font-style:italic;
+	font-weight:2000;
 	letter-spacing:2px;
 }
 .intro-text > .intro-btns{
@@ -514,10 +512,11 @@ body.section-switching.up .animation-block{
 	width:100%;
 }
 .v-align > .inner{
+	position: fixed;
+    top: 500px;
 	height:100%;
 	width:100%;
 	display:table-cell;
-	vertical-align:middle;
 }
 
 
