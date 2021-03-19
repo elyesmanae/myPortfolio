@@ -243,7 +243,6 @@ body.border-dark .main-content:after{
 	background-image:url('https://elyesmanae.github.io/myPortfolio/img/myPicture.jpg');
 	background-repeat: no-repeat;
   	background-attachment: fixed; 
-  	background-position: center;
 }
 .section-main:before{
 	content: ' ';
@@ -1396,8 +1395,6 @@ body.loaded #preloader .loader{
 		margin-bottom:10px;
 	}
 	.intro-text > h1{
-
-		text-align: center;
 		font-size:62px;
 	}
 }
