@@ -150,7 +150,7 @@ body.border-dark .menu-btn > .lines > span{
 	transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
 }
 body.border-dark .main-content > .page-border{
-	border-color:#f1d205;
+	border-color: #0543a8;
 }
 .main-content > .border-top,
 .main-content > .border-bottom{
@@ -191,6 +191,15 @@ body.border-dark .main-content > .page-border{
 	overflow:hidden;
 	box-shadow: 0 0 0 10px #FFF;
 }
+.particle-container {
+  flex: 0 0 auto; /* Prevents resizing */
+  margin-right: 20px; /* Adds spacing between the iframe and the text */
+}
+  .particle-container iframe {
+    width: 400px;
+    height: 100px;
+    border: none;
+  }
 .section{
 	position:absolute;
 	top:0;
@@ -240,7 +249,6 @@ body.border-dark .main-content:after{
 =======================================================*/
 .section-main{
 	background-size:cover;
-	background-image:url('http://www.elyesmanai.com/img/myPicture.jpg');
 	background-repeat: no-repeat;
   	background-attachment: fixed; 
 }
